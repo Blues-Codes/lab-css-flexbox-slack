@@ -11,14 +11,15 @@
 
   <!-- link your styles -->
   <link rel="stylesheet" href="./stylesheets/style.css" />
-
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@400;500&display=swap" rel="stylesheet">
   <link rel="icon" type="image/x-icon" href="./images/slack-icon.png">
   <title>Slack is your digital HQ | Slack</title>
 </head>
 
 <body>
   <nav>
-    <div>
+    <div class="left-div">
       <img src="./images/slack-logo.png" alt="Slack logo" />
 
       <ul>
@@ -37,53 +38,53 @@
       </ul>
     </div>
 
-    <div>
-      <button>
+    <div class="right-div">
+      <button class="search-btn">
         <img src="./images/icon-search.png" alt="Search icon">
       </button>
 
       <button>
-        <img src="./images/icon-menu.png" alt="Menu icon">
+        <img src="./images/icon-menu.png" alt="Menu icon" hidden>
       </button>
 
-      <ul hidden>
+      <ul>
         <li>
-          <a href="#">Sign in</a>
+          <a href="#" class="sign-in">Sign in</a>
         </li>
         <li>
-          <a href="#">Try for free</a>
+          <a href="#" class="try-free">TRY FOR FREE</a>
         </li>
       </ul>
     </div>
   </nav>
 
   <header>
-    <div>
-      <h1>Great teamwork starts with a digital HQ</h1>
+    <div class="header-left">
+      <h1>Great <br> teamwork starts with a digital HQ</h1>
 
-      <p>Slack is free to try for as long as you'd like.</p>
+      <p><span class="yellow-text">Slack is free to try</span> for as long as you'd like.</p>
 
-      <div>
-        <button>Sign up with email</button>
+      <div class="header-left-btns">
+        <button class="btn-one">SIGN UP WITH EMAIL</button>
 
-        <button>
+        <button class="btn-two">
           <img src="./images/logo-google.png" alt="Google logo" />
-          <span>Sign up with Google</span>
+          <span>SIGN UP WITH GOOGLE</span>
         </button>
       </div>
 
     </div>
 
-    <div>
+    <div class="header-right">
       <img src="./images/hero-product-ui.png" alt="Slack app screenshot" />
     </div>
   </header>
 
   <main>
-    <section>
-      <p>Trusted by companies all over the world</p>
+    <section class="section-one">
+      <p>TRUSTED BY COMPANIES ALL OVER THE WORLD</p>
 
-      <div>
+      <div class="logos">
         <img src="./images/logo-airbnb.png" alt="Airbnb logo" />
         <img src="./images/logo-nasa.png" alt="NASA logo" />
         <img src="./images/logo-uber.png" alt="Uber logo" />
@@ -94,12 +95,12 @@
 
     </section>
 
-    <section>
-      <div>
-        <img src="./images/connectedness-mobile.png" alt="connectedness" />
+    <section class="section-two">
+      <div class="connectedness-box">
+        <img src="./images/connectedness.png" alt="connectedness" />
       </div>
 
-      <div>
+      <div class="right-text">
         <h2>Bring your team together</h2>
 
         <p>
@@ -113,8 +114,8 @@
       </div>
     </section>
 
-    <section>
-      <div>
+    <section class="section-three">
+      <div class="left-text">
         <h2>Choose how you want to work</h2>
         <p>
           In Slack, you’ve got all the flexibility to work when, where and how it’s best for you. You can easily chat,
@@ -127,17 +128,17 @@
         </a>
       </div>
 
-      <div>
-        <img src="./images/flexibility-mobile.png" alt="flexibility" />
+      <div class="flexibility-box">
+        <img src="./images/flexibility.png" alt="flexibility" />
       </div>
     </section>
 
-    <section>
-      <div>
-        <img src="./images/speed-mobile.png" alt="speed" />
+    <section class="section-four">
+      <div class="speed-box">
+        <img src="./images/speed.png" alt="speed" />
       </div>
 
-      <div>
+      <div class="right-text-two">
         <h2>Move faster with your tools in one place</h2>
         <p>
           With your other work apps connected to Slack, you can work faster by switching tabs less. And with powerful
